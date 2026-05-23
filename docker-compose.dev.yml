@@ -1,0 +1,17 @@
+services:
+  dev-env: 
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+
+    volumes:
+      - .:/workspace
+      - uv-cache:/root/.cache/uv
+
+    command: sleep infinity
+
+    environment:
+      - ENV=development
+
+volumes:
+  uv-cache:
