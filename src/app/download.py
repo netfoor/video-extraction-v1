@@ -31,6 +31,6 @@ def download_audio(url, output_path):
 
 
 if __name__ == "__main__":
-    url = "https://www.youtube.com/watch?v=ogqeb9TLO8A"
+    url = "https://www.youtube.com/watch?v=DHCjQ56LnaM"
     output_path = Path(__file__).resolve().parent.parent.parent / "data" / "raw"
     download_audio(url, output_path)
