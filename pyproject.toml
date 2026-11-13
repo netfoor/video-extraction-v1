@@ -1,7 +1,7 @@
 [project]
 name = "video-extraction-v1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Pipeline that downloads YouTube audio and produces speaker-labeled transcripts with WhisperX"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
